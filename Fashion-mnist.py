@@ -2,8 +2,8 @@
 """
 Created on Sun Aug 29 18:18:17 2021
 
-@author: USER
-"""
+
+
 
 import tensorflow as tf
 
@@ -40,9 +40,9 @@ import matplotlib.pyplot as plt
 
 f,axarr=plt.subplots(3,4)
 first_image=0
-second_image=7
-third_image=26
-convolution_number=1
+second_image=9
+third_image=32
+conv_number=1
 
 from tensorflow.keras import models
 
